@@ -1,0 +1,62 @@
+body,*{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f0eff5;
+}
+.list-tile{
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #6d6d6d;
+  font-weight: inherit;
+}
+.list-group>a{
+  display: block;
+  text-decoration: none;
+  padding-left: 15px;
+  background: #fff;
+}
+.list-group-item{
+  position: relative;
+  display: block;
+  padding: 12px 15px 11px 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e1e1df;
+  border-left: none;
+}
+.badge{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  padding:12px 0;
+  margin-right: -8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.badge img{
+  height: 20px;
+}
+.q-title{
+  position: relative;
+  padding: 15px 15px 10px 15px;
+  font-size: 16px;
+  line-height: 24px;
+  background: #fff;
+  font-weight: bolder;
+  border-bottom: 1px solid #ededed;
+}
+.q-content{
+  font-size: 15px;
+  color: #333;
+  line-height: 24px;
+  padding: 10px 15px;
+  background: #fff;
+  text-align: justify;
+}
+.q-content img{
+  max-width: 100%;
+}
